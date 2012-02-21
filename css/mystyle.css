@@ -1,0 +1,62 @@
+h3{
+	margin-left: 140px;
+}
+
+h2{
+	margin-left: 430px;
+}
+
+p{
+	float: left;
+	margin-left: -70px;
+	margin-top: 6px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+img{
+margin-left:0px;
+}
+
+.results {
+	max-width: 0px;
+}
+
+#results1 {
+min-width: 210px;
+	max-width: 210px;
+}
+#results2 {
+min-width: 210px;
+	max-width: 210px;
+}
+#results3 {
+min-width: 210px;
+	max-width: 210px;
+}
+
+.ui-block-b {
+	min-width: 210px;
+	max-width: 210px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: left;
+}
+
+#controls {
+	width: 80px;
+	margin:auto;
+}
+
+#popeye_platform{
+margin-left: 60px;
+}
+
+#betty_platform{
+margin-left: 40px;
+}

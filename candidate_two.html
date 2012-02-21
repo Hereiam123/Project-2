@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>ToonTown Voting System</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+		<link rel="stylesheet" href="css/mystyle.css" /> 
+		<link rel="stylesheet" href="css/voting.css" />
+		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	</head>
+	
+	<body>			
+		<body>
+		<div data-role="page" class="theme-preview">
+			<div data-role="header">
+				<h1>ToonTown Voting System</h1>
+			</div><!-- /header -->
+			
+			<div data-role="content" class="ui-body ui-body-a ui-grid-b">
+				<div class="ui-block-a"></div>
+				<div class="ui-block-b">
+					<img src="img/betty.jpg" alt="" />
+					<h4 id="betty_platform">Platform: Equality for women and the elderly</h4>
+					<form method='post' action="voting.php">
+						<input type='submit' name='action' value='Can 2'>
+					</form>
+					<div id="controls">
+						<a href="candidate_one.html" data-role="button" data-icon="arrow-l" data-iconpos="notext" class="left"></a>		
+						<a href="candidate_three.html" data-role="button" data-icon="arrow-r" data-iconpos="notext" class="right"></a>
+					</div>
+				</div>
+				<div class="ui-block-c"></div>
+			</div>
+			
+			<div data-role="footer">
+			</div>
+		</div>
+	</body>
+</html>
